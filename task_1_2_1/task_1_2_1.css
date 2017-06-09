@@ -1,0 +1,75 @@
+#header{
+    background-color: #000000;
+    height:40px;
+    color:white;
+    font-size:20px;
+}
+
+#header #webtitle{
+    position:absolute;
+    top:20px;
+    left:20px;
+
+
+}
+
+
+.titlelink ul{
+    list-style: none;
+    position:absolute;
+    right:0px;
+}
+
+.titlelink li{
+    float:left;
+    width:150px;
+
+}
+
+.titlelink a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+
+.titlelink a:hover{
+    color:red;
+}
+
+.content_block{
+    margin:20px auto;
+    padding:10px ;
+    background-color: white;
+    border:thin solid rgb(203,203,203);
+    width:96%;
+}
+
+#side_block{
+    text-align: center;
+}
+
+#footer{
+    height:40px;
+    background-color:black;
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+
+body{
+    background-color:rgb(222,222,222);
+}
+
+body p{
+    line-height:40px;
+}
+
+h3{
+    color:rgb(200,200,200);
+}
+
+.tupian div{
+    width:250px;
+    padding:10px;
+    border:1px solid black;
+}
