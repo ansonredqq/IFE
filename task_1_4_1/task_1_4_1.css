@@ -1,0 +1,29 @@
+#container{
+    width:400px;
+    height:200px;
+    background-color:#ccc;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top:-100px;
+
+}
+
+#upcorner{
+    background-color:#fc0;
+    width:50px;
+    height:50px;
+    border-radius:0px 0px 50px 0px;
+}
+
+#downcorner{
+
+    background-color:#fc0;
+    width:50px;
+    height:50px;
+    border-radius:50px 0px 0px 0px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
